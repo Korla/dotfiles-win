@@ -4,7 +4,7 @@ $RepositoryUrl = "https://github.com/pardahlman/dotfiles-win.git"
 $InstallDirectory = "$HOME/.dotfiles"
 
 if (Test-Path $InstallDirectory) {
-    Write-Outfile "Directory $SetupFile already exists. To continue, remove directory and try again."
+    Write-Output "Directory $SetupFile already exists. To continue, remove directory and try again."
     exit 1
 }
 
